@@ -9,5 +9,5 @@ Additionally it can follow the rolling rules of the tabletop RPG Shadowrun
 
 Java source code for the two activities can be found here :
 
-Dice_Roller_Android_App/app/src/main/java/com/levikidder/diceroller/
+app/src/main/java/com/levikidder/diceroller/
       
