@@ -6,3 +6,8 @@ It can do simple dice rolls with varying numbers of dice with varied amounts of 
 Additionally it can follow the rolling rules of the tabletop RPG Shadowrun
 
 
+
+Java source code for the two activities can be found here :
+
+Dice_Roller_Android_App/app/src/main/java/com/levikidder/diceroller/
+      
