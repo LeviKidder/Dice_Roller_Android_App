@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/diceVal"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:layout_marginTop="379dp"
+        android:text="CHOOSE VALUE OF DICE TO ROLL:"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/diceValIninput"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:layout_marginTop="404dp"
+        android:ems="10"
+        android:hint="Enter value of dice:"
+        android:text=""
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numDiceInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="Enter # of dice:"
+        android:inputType="number"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/numDice"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:gravity="center"
+        android:layout_marginTop="212dp"
+        android:text="CHOOSE HOW MANY DICE TO ROLL"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/roll"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="192dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="540dp"
+        android:text="ROLL!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RollvalueText"
+        android:layout_width="104dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="84dp"
+        android:text="Total Roll Value:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rollTotal"
+        android:layout_width="335dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="111dp"
+        android:gravity="center"
+        android:text="@+id/rollTotal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        app:layout_constraintEnd_toStartOf="@+id/RollvalueText"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/RollvalueText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/shadowSwitch"
+        android:layout_width="164dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="To ShadowRunner Roller"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
