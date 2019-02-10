@@ -8,6 +8,8 @@ Additionally it can follow the rolling rules of the tabletop RPG Shadowrun
 
 
 Java source code for the two activities can be found here :
-
 app/src/main/java/com/levikidder/diceroller/
+      
+Shadowrun activity .xml can be found here:
+app/src/main/res/layout/activity_shadow_roller.xml
       
